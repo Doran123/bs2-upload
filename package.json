@@ -1,0 +1,30 @@
+{
+  "name": "bs2-upload",
+  "version": "1.0.0",
+  "description": "bs2-upload",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx babel src/ --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doran123/bs2-upload.git"
+  },
+  "keywords": [
+    "bs2"
+  ],
+  "author": "chensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doran123/bs2-upload/issues"
+  },
+  "homepage": "https://github.com/Doran123/bs2-upload#readme"
+}
